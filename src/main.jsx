@@ -36,7 +36,7 @@ const projects = [
     icon: Boxes,
     accent: 'mint',
     points: ['Reusable infrastructure patterns', 'Service-level state separation', 'Consistent, reviewable changes'],
-    github: 'https://github.com/',
+    github: 'https://github.com/KarthikKunchala23/gp-terraform-foundation.git',
   },
   {
     number: '02',
@@ -47,7 +47,7 @@ const projects = [
     icon: Cloud,
     accent: 'blue',
     points: ['Automated cluster infrastructure', 'GitOps application delivery', 'Workload and node troubleshooting'],
-    github: 'https://github.com/',
+    github: 'https://github.com/KarthikKunchala23/gp-eks-cluster.git',
   },
   {
     number: '03',
@@ -58,7 +58,7 @@ const projects = [
     icon: Activity,
     accent: 'purple',
     points: ['Metrics and trace collection', 'Operational dashboards', 'Signals for troubleshooting'],
-    github: 'https://github.com/',
+    github: 'https://github.com/KarthikKunchala23/gp-observability-terraform.git',
   },
   {
     number: '04',
@@ -69,7 +69,7 @@ const projects = [
     icon: ShieldCheck,
     accent: 'orange',
     points: ['Age-threshold checks', 'Rotation state tracking', 'Notification-driven handoff'],
-    github: 'https://github.com/',
+    github: 'https://github.com/KarthikKunchala23/gp-aws-iam-keys-rotation.git',
   },
   {
     number: '05',
@@ -80,7 +80,7 @@ const projects = [
     icon: Database,
     accent: 'blue',
     points: ['Infrastructure provisioned as code', 'Workflow orchestration', 'Secure service integration'],
-    github: 'https://github.com/',
+    github: 'https://github.com/KarthikKunchala23/data-platform-infra.git',
   },
   {
     number: '06',
@@ -91,7 +91,7 @@ const projects = [
     icon: Sparkles,
     accent: 'mint',
     points: ['PDF ingestion and chunking', 'Semantic retrieval experiments', 'Grounded question answering'],
-    github: 'https://github.com/',
+    github: 'https://github.com/KarthikKunchala23/sanatan-rag.git',
   },
 ];
 
@@ -217,7 +217,6 @@ function App() {
               <a className="project-link" href={github} target="_blank" rel="noreferrer">View project <ExternalLink size={15}/></a>
             </article>)}
           </div>
-          <p className="project-note"><Sparkles size={15}/> Project cards are editable starter content. Replace each placeholder GitHub URL with the actual repository before publishing.</p>
         </section>
 
         <section className="cert-section section-wrap" id="certifications">
